@@ -1,0 +1,46 @@
+{
+  "name": "ethereum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.7",
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
+    "@nomicfoundation/hardhat-ignition": "^0.15.11",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.5",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.11",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.8",
+    "@nomicfoundation/ignition-core": "^0.15.11",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/chai": "^4.3.1",
+    "@types/dotenv": "^6.1.1",
+    "@types/mocha": "^10.0.7",
+    "@types/node": "22.15.3",
+    "chai": "^4.3.10",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.13.1",
+    "hardhat": "^2.22.6",
+    "hardhat-deploy": "^0.12.4",
+    "hardhat-gas-reporter": "^1.0.10",
+    "solidity-coverage": "^0.8.12",
+    "ts-node": "^10.9.2",
+    "typechain": "^8.3.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@arbitrum/nitro-contracts": "3.0.0",
+    "@eth-optimism/contracts-bedrock": "0.17.3",
+    "@layerzerolabs/lz-evm-sdk-v2": "3.0.90",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@pythnetwork/pyth-sdk-solidity": "^4.1.0",
+    "ethereum": "file:"
+  }
+}

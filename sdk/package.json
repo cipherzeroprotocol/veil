@@ -1,0 +1,24 @@
+{
+  "name": "sdk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@lightprotocol/compressed-token": "^0.20.9",
+    "@lightprotocol/stateless.js": "^0.20.9",
+    "@solana/web3.js": "^1.98.2",
+    "circomlibjs": "^0.1.7",
+    "ethers": "^6.13.7",
+    "sdk": "file:",
+    "snarkjs": "^0.7.5"
+  },
+  "devDependencies": {
+    "@types/snarkjs": "^0.7.9"
+  }
+}
